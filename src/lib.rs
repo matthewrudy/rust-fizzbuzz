@@ -1,4 +1,19 @@
 
+/// This function adds two to its argument.
+///
+/// # Examples
+///
+/// ```
+/// use fizzybuzz::word_for;
+///
+/// assert_eq!("1",    word_for(1));
+/// assert_eq!("2",    word_for(2));
+/// assert_eq!("fizz", word_for(3));
+/// assert_eq!("4",    word_for(4));
+/// assert_eq!("buzz", word_for(5));
+///
+/// assert_eq!("fizz buzz", word_for(15));
+/// ```
 pub fn word_for(n: u32) -> String {
     let mut string = String::new();
 
