@@ -1,0 +1,4 @@
+[package]
+name = "fizzybuzz"
+version = "0.1.0"
+authors = ["Matthew Rudy Jacobs <matthewrudyjacobs@gmail.com>"]
