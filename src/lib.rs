@@ -10,7 +10,7 @@ pub fn word_for(n: u32) -> String {
     }
 
     if string.len() > 0 {
-        string.pop();
+        //string.pop();
         return string;
     }
 
